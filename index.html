@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spilcafé - Hyg jer sammen her</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nobile:wght@400;500;700&display=swap" rel="stylesheet">
+
+        <!-- link til stylesheet -->
+        <link rel="stylesheet" href="css/css.css">
+    </head>
+<body>
+  <!-- sidens indhold kommer her-->
+
+    <div class="forside"> 
+        <!-- Vores header er den faste indledning med logo og navn -->
+        <header class="brand">
+            <div class="logo-wrap">
+                <img class="brand-logo" src="billeder/logo.png" alt="EAA Brætspilscafé - terninger og kaffe">
+            </div>
+            <div>
+                <p class="brand-name">
+                    Brætspilscafé
+                </p>
+                <p class="brand-school">
+                    ERHVERVSAKADEMI AARHUS
+                </p>
+            </div>
+        </header>
+
+        <!-- Nu kommer vores main, som indeholder sidens vigtigste indhold og de fire sektioner i bunden -->
+        <main>
+            <section id="opdag" class="page">
+                <p class="overtekst">
+                    EN PAUSE MED PLADS TIL FÆLLESSKAB
+                </p>
+                <h1>
+                    Tid til en pause?
+                    <br>
+                    Find jeres næste spil her.
+                </h1>
+                <p class="intro">
+                    En kop kaffe + Et godt spil = Fællesskab!
+                </p>
+                <!-- En form samler søgefeltet og Søg-knappen. -->
+                <form class="search" id="home-search" role="search">
+                    <input id="search-field" type="search" placeholder="Søg efter dit yndlingsspil…">
+                    <button>
+                        Søg
+                    </button>
+                </form>
+                <div class="section-heading">
+                    <h2>
+                        Hvad er I i humør til?
+                    </h2>
+                </div>
+                <!-- Nu kommer de fire emoji-knapper man kan trykke på for at vælge et tema. -->
+                <div class="moods">
+                    <!-- src er stien til billedfilen. alt beskriver billedet, hvis det ikke kan ses. -->
+                    <button class="mood" data-mood="Sjov">
+                        <img src="billeder/sjov.png" alt="Emoji der griner">
+                        <span>
+                            Sjov
+                        </span>
+                    </button>
+                    <button class="mood" data-mood="Hygge">
+                        <img src="billeder/hygge.png" alt="Rolig emoji pakket ind i et tæppe og hygger sig">
+                        <span>
+                            Hygge
+                        </span>
+                    </button>
+                    <button class="mood" data-mood="Svær">
+                        <img src="billeder/svaer.png" alt="Tænkende emoji med tankeboble">
+                        <span>
+                            Svær
+                        </span>
+                    </button>
+                    <button class="mood" data-mood="Battle">
+                        <img src="billeder/battle.png" alt="Emoji med boksehandsker klar til battle">
+                        <span>
+                            Battle
+                        </span>
+                    </button>
+                </div>
+            </section>
+
+
+
+
+
+  
+        </main>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>

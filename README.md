@@ -1,2 +1,2 @@
 # Spilcafe_case_Line
-Spilcafe case - Line
+Spilcafe case Line
